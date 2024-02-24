@@ -1,6 +1,6 @@
 
 ## HumanoidPendulum
-The Humanoid Robot, but with objective of remaining standing up, instead of walking forward. (a Humanoid Version of "InvertedDoublePendulum")
+The Humanoid Robot, but with objective of remaining standing up, instead of walking forward. (A Humanoid Version of "InvertedDoublePendulum")
 ```py
 import gymnasium
 
@@ -15,3 +15,8 @@ gymnasium.make(
   include_cfrc_ext_in_observation=False,
 )
 ```
+
+## CoupledHalfCheetah
+2 HalfCheetas coupled together with a tendon.
+
+Can be found at https://github.com/Farama-Foundation/Gymnasium-Robotics/blob/main/gymnasium_robotics/envs/multiagent_mujoco/coupled_half_cheetah.py
