@@ -18,7 +18,7 @@ gymnasium.make(
 ```
 
 ## CoupledHalfCheetah
-2 HalfCheetas coupled together with a tendon.
+2 HalfCheetahs coupled together with a tendon.
 
 Can be found at https://github.com/Farama-Foundation/Gymnasium-Robotics/blob/main/gymnasium_robotics/envs/multiagent_mujoco/coupled_half_cheetah.py
 
